@@ -1,0 +1,43 @@
+.container {
+    max-width: 1240px;
+}
+
+#main-box {
+    margin-top: 10px;
+    background-color: rgb(167, 223, 255);
+}
+
+#title {
+    font-family: 'Oswald', sans-serif !important;
+    margin-top: 10px !important;
+}
+
+.jumbotron{
+    padding-top: 1rem !important;
+}
+
+.row {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+
+.col {
+    max-width: 8cm !important;
+    min-width: 8cm !important;
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 0rem !important;
+    height: 100% !important;
+}
+
+.card-body {
+    border: 1px solid rgba(133, 133, 133, .125);
+}
+
+.card-img-top {
+    max-width: 10cm;
+    max-height: 10cm;
+    border: 1px solid rgba(133, 133, 133, .125);
+}
