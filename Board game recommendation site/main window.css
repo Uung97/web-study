@@ -12,6 +12,10 @@
     margin-top: 10px !important;
 }
 
+.lead {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .jumbotron{
     padding-top: 1rem !important;
 }
@@ -40,4 +44,13 @@
     max-width: 10cm;
     max-height: 10cm;
     border: 1px solid rgba(133, 133, 133, .125);
+}
+
+.game-title {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 2rem;
+}
+
+.game-contents {
+    font-family: 'Noto Sans KR', sans-serif;
 }

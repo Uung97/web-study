@@ -14,6 +14,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -57,21 +61,26 @@
 
         <div class="jumbotron" id="main-box">
             <h1 class="display-4" id="title">Board GamerZ</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <p class="lead">보드게임을 하고 싶지만 어떤 보드게임을 해야 하는지 고민되는 분들을 위한 보드게임 추천 사이트 입니다.</p>
             <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <p>보드게임을 직접 알아보고 싶다면?</p>
+            <a class="btn btn-primary btn-lg" href="https://www.koreaboardgames.com/boardgame/game_list01.php#pagenum=1&view_type=bg&search_checkbox1%5B%5D=A001A002A003&search_sort=" role="button">코리아 보드게임즈 가기</a>
         </div>
 
         <div class="row">
             <div class="col">
                 <div class="card">
-                    <img src="./image-set/174491604897977.png" class="card-img-top" alt="...">
+                    <img src="./image-set/174491604897977.png" class="card-img-top" onclick="image_click()">
                     <div class="card-body">
-                      <h5 class="card-title">마르코 폴로</h5>
-                      <p class="game-people" style="line-height: 0.5;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2명-4명</p>
-                      <p class="game-time" style="line-height: 0.5;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60분-120분</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="game-title" onclick="image_click()">마르코 폴로</h5>
+
+                      <div class="game-contents">
+                        <p class="game-genre" style="margin-bottom: 0.3rem;">게임 장르&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전략 게임</p>
+                        <p class="game-people" style="margin-bottom: 0.3rem;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2명-4명</p>
+                        <p class="game-time" style="margin-bottom: 0.3rem;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60분-120분</p>
+                        <p class="game-price" style="margin-bottom: 0.3rem;">게임 가격&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;79,000원</p>
+                      </div>
+
                     </div>
                 </div>
             </div>
@@ -79,9 +88,15 @@
                 <div class="card">
                     <img src="./image-set/207611481992392.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">루미 큐브</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="game-title">루미 큐브</h5>
+
+                      <div class="game-contents">
+                        <p class="game-genre" style="margin-bottom: 0.3rem;">게임 장르&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가족 게임</p>
+                        <p class="game-people" style="margin-bottom: 0.3rem;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2명-4명</p>
+                        <p class="game-time" style="margin-bottom: 0.3rem;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60분</p>
+                        <p class="game-price" style="margin-bottom: 0.3rem;">게임 가격&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36,000원</p>
+                      </div>
+
                     </div>
                 </div>
             </div>
@@ -89,9 +104,15 @@
                 <div class="card">
                     <img src="./image-set/223681477872881.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">데드 오브 윈터</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="game-title">데드 오브 윈터</h5>
+
+                      <div class="game-contents">
+                        <p class="game-genre" style="margin-bottom: 0.3rem;">게임 장르&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;테마 집중형 게임</p>
+                        <p class="game-people" style="margin-bottom: 0.3rem;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2명-5명</p>
+                        <p class="game-time" style="margin-bottom: 0.3rem;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60분-120분</p>
+                        <p class="game-price" style="margin-bottom: 0.3rem;">게임 가격&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;69,000원</p>
+                      </div>
+
                     </div>
                 </div>
             </div>
@@ -99,9 +120,15 @@
                 <div class="card">
                     <img src="./image-set/529081513216345.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">보난자</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="game-title">보난자</h5>
+
+                      <div class="game-contents">
+                        <p class="game-genre" style="margin-bottom: 0.3rem;">게임 장르&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가족 게임</p>
+                        <p class="game-people" style="margin-bottom: 0.3rem;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3명-5명</p>
+                        <p class="game-time" style="margin-bottom: 0.3rem;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45분</p>
+                        <p class="game-price" style="margin-bottom: 0.3rem;">게임 가격&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14,000원</p>
+                      </div>
+
                     </div>
                 </div>
             </div>
@@ -109,9 +136,15 @@
                 <div class="card">
                     <img src="./image-set/780931501812264.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">테라포밍 마스</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="game-title">테라포밍 마스</h5>
+
+                      <div class="game-contents">
+                        <p class="game-genre" style="margin-bottom: 0.3rem;">게임 장르&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전략 게임</p>
+                        <p class="game-people" style="margin-bottom: 0.3rem;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1명-5명</p>
+                        <p class="game-time" style="margin-bottom: 0.3rem;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90분-120분</p>
+                        <p class="game-price" style="margin-bottom: 0.3rem;">게임 가격&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;62,000원</p>
+                      </div>
+
                     </div>
                 </div>
             </div>
@@ -119,9 +152,15 @@
                 <div class="card">
                     <img src="./image-set/968631481991733.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">달무티</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <h5 class="game-title">달무티</h5>
+
+                      <div class="game-contents">
+                        <p class="game-genre" style="margin-bottom: 0.3rem;">게임 장르&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가족, 파티 게임</p>
+                        <p class="game-people" style="margin-bottom: 0.3rem;">게임 인원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4명-8명</p>
+                        <p class="game-time" style="margin-bottom: 0.3rem;">게임 시간&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10분-20분</p>
+                        <p class="game-price" style="margin-bottom: 0.3rem;">게임 가격&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12,000원</p>
+                      </div>
+
                     </div>
                 </div>
             </div>
@@ -134,8 +173,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
     <script>
-        function serch() {
-
+        function image_click() {
+            location.href = "https://www.koreaboardgames.com/boardgame/game_view.php?prd_idx=17026"
         }
     </script>
 
